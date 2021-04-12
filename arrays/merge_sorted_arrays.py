@@ -18,7 +18,7 @@ def mergeSortedarr(a,b):
             arr_res.append(b[j])
             j+=1
     print("•i",i,a[i:])
-    print(b[j:])
+    print("•j",j,b[j:])
     return arr_res+a[i:]+b[j:]
 
 print(mergeSortedarr(arr_1,arr_2))
